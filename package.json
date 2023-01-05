@@ -1,7 +1,7 @@
 {
   "name": "solar-system",
   "version": "0.1.0",
-  "homepage": "github-page/",
+  "homepage": "solar-system/",
   "private": true,
   "engines": {
     "node": "16"
