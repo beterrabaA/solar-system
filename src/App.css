@@ -5,6 +5,61 @@
 body {
   background-image: url('./images/background.png');
   background-repeat: no-repeat;
+  /* background-size: cover; */
   color: white;
   text-align: center;
+}
+
+header {
+  font-size: 60px;
+  /* margin: 0; */
+}
+
+h1 {
+  margin: 0;
+}
+
+h2 {
+  font-size: 40px;
+  border: 1px solid wheat;
+  border-radius: 3px;
+  width: 80%;
+  padding: 4px 0;
+  margin-left: 10%;
+}
+
+.planet-card {
+  display: inline-block;
+}
+
+.mercury {
+  width: 50px;
+}
+
+.venus {
+  width: 100px;
+}
+
+.earth {
+  width: 120px;
+}
+
+.mars {
+  width: 80px;
+}
+
+.jupiter {
+  width: 240px;
+}
+
+.saturn {
+  width:200px;
+}
+
+.uran {
+  width: 90px;
+}
+
+.neturn {
+  width: 85px;
 }

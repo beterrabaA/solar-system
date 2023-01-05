@@ -11,6 +11,7 @@ function SolarSystem() {
         .map((e) => (<PlanetCard
           planetName={ e.name }
           planetImage={ e.image }
+          classDet={ e.class }
           key={ e.name }
         />))}
     </div>
