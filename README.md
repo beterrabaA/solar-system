@@ -1,4 +1,4 @@
-# Boas-vindas ao repositório do projeto Solar System!
+# Solar System
 
 Para realizar o projeto, atente-se a cada passo descrito a seguir, e se tiver qualquer dúvida, nos envie por _Slack_! #vqv 🚀
 
