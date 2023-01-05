@@ -3,7 +3,7 @@ import React from 'react';
 function Header() {
   return (
     <header>
-      <h1>Sistema Solar</h1>
+      <h1>Solar System</h1>
     </header>
   );
 }

@@ -6,15 +6,17 @@ import missions from '../data/missions';
 function Missions() {
   return (
     <div data-testid="missions">
-      <Title headline="Missões" />
-      {missions
-        .map((e) => (<MissionCard
-          name={ e.name }
-          year={ e.year }
-          country={ e.country }
-          destination={ e.destination }
-          key={ e.name }
-        />))}
+      <Title headline="Missions" />
+      <div className="container-mission">
+        {missions
+          .map((e) => (<MissionCard
+            name={ e.name }
+            year={ e.year }
+            country={ e.country }
+            destination={ e.destination }
+            key={ e.name }
+          />))}
+      </div>
     </div>
   );
 }

@@ -20,6 +20,7 @@ h1 {
 }
 
 h2 {
+  background-color: rgba(0, 0, 0, 0.4);
   font-size: 40px;
   border: 1px solid wheat;
   border-radius: 3px;
@@ -62,4 +63,25 @@ h2 {
 
 .neturn {
   width: 85px;
+}
+
+.container-mission {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 80%;
+  margin-left: 10%;
+}
+
+.mission-card {
+  background-color: rgba(0, 0, 0, 0.4);
+  font-size: larger;
+  border: 1px solid white;
+  padding: 30px 0;
+  border-radius: 3px;
+  margin: 10px;
+}
+
+.mission-name {
+  font-size: 25px;
+  margin: 0;
 }
